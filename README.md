@@ -1,0 +1,2 @@
+# Off-by-One Error in Java Array
+This example showcases a subtle off-by-one error that can occur when iterating over arrays in Java.  The error arises from using `<=` in the loop condition instead of `<`, leading to an `ArrayIndexOutOfBoundsException`.
